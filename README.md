@@ -1,7 +1,7 @@
 # JSON Edit
 
 This tool is just a sample tool. What is interesting is that it fixes json on the fly.
-Once run in the right side if you type invalid json, it fixes it in the right.
+Once run in the left side if you type invalid json, it fixes it in the right.
 ```
 {"First" "Sherlock" "Last" "Holmes" "Detective" true "Friend" "Watson"}
 ```
