@@ -99,7 +99,7 @@
 							action.innerHTML = "Downloading web assembly file.";
 
 							const go = new Go();
-							WebAssembly.instantiateStreaming(fetch("6.tools.wasm"), go.importObject).then((result) => {
+							WebAssembly.instantiateStreaming(fetch("jsonPretty.wasm"), go.importObject).then((result) => {
 								main.innerHTML = "";
 								go.run(result.instance);
 							});
@@ -126,7 +126,7 @@
 			<div class="centered-container">
 			<table class="center">
 				<tr><td><img class="application-icon" src="icon.png" alt="Application icon"/></td></tr>
-				<tr><td><div class="centered-text"><div class="application-name">6.tools</div></div></td></tr>
+				<tr><td><div class="centered-text"><div class="application-name">jsonPretty</div></div></td></tr>
 				<tr><td><div class="centered-text"><div class="application-version">v0.0.1</div></div></td></tr>
 				<tr>
 					<td>
