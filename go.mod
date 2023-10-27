@@ -37,4 +37,4 @@ require (
 	honnef.co/go/js/dom v0.0.0-20210725211120-f030747120f2 // indirect
 )
 
-replace github.com/fyne-io/glfw-js => /Users/rx7322/go/src/github.com/gcottom/glfw-js
+replace github.com/fyne-io/glfw-js => /Users/rmasci/go/src/github.com/gcottom/glfw-js
